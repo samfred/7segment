@@ -1,0 +1,78 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnjmy8hr8mt18"]
+
+[ext_resource type="Theme" uid="uid://dluy1wenlmx21" path="res://segment.tres" id="1_6cvq8"]
+
+[node name="mainGame" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.415686, 0.415686, 0.415686, 1)
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+offset_left = 492.0
+offset_top = 70.0
+offset_right = 660.0
+offset_bottom = 109.0
+theme = ExtResource("1_6cvq8")
+
+[node name="Button6" type="Button" parent="."]
+layout_mode = 2
+offset_left = 486.0
+offset_top = 288.0
+offset_right = 654.0
+offset_bottom = 327.0
+theme = ExtResource("1_6cvq8")
+
+[node name="Button7" type="Button" parent="."]
+layout_mode = 2
+offset_left = 486.0
+offset_top = 466.0
+offset_right = 654.0
+offset_bottom = 505.0
+theme = ExtResource("1_6cvq8")
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 2
+offset_left = 456.0
+offset_top = 294.0
+offset_right = 624.0
+offset_bottom = 333.0
+rotation = -1.5708
+theme = ExtResource("1_6cvq8")
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 2
+offset_left = 456.0
+offset_top = 486.0
+offset_right = 624.0
+offset_bottom = 525.0
+rotation = -1.5708
+theme = ExtResource("1_6cvq8")
+
+[node name="Button4" type="Button" parent="."]
+layout_mode = 2
+offset_left = 640.0
+offset_top = 310.0
+offset_right = 808.0
+offset_bottom = 349.0
+rotation = -1.5708
+theme = ExtResource("1_6cvq8")
+
+[node name="Button5" type="Button" parent="."]
+layout_mode = 2
+offset_left = 648.0
+offset_top = 476.0
+offset_right = 816.0
+offset_bottom = 515.0
+rotation = -1.5708
+theme = ExtResource("1_6cvq8")
